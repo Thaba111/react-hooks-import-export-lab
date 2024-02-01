@@ -1,11 +1,19 @@
-import React from "react";
+// src/components/Home.js
 
-function Home() {
+// Import necessary modules or dependencies
+import React from 'react';
+
+// Define the Home component
+const Home = () => {
+  // Your component logic here
+
   return (
-    <div id="home">
-      <h1>
-        {username} is a Web Developer from {city}
-      </h1>
+    // JSX for the Home component
+    <div>
+      {/* Your Home content */}
     </div>
   );
-}
+};
+
+// Export the Home component as the default export
+export default Home;

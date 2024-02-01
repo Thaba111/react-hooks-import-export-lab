@@ -1,11 +1,19 @@
-import React from "react";
+// src/components/About.js
 
-function About() {
+// Import necessary modules or dependencies
+import React from 'react';
+
+// Define the About component
+const About = () => {
+  // Your component logic here
+
   return (
-    <div id="about">
-      <h2>About Me</h2>
-      <p>I Made This</p>
-      <img src={image} alt="I made this" />
+    // JSX for the About component
+    <div>
+      {/* Your About content */}
     </div>
   );
-}
+};
+
+// Export the About component as the default export
+export default About;
